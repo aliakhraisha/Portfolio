@@ -14,7 +14,7 @@
 ### Setup
 
 - To clone this Repo run the this command on your terminal:
-git clone git@github.com:aliakhraisha/Hello-Microverse.git
+git clone git@github.com:aliakhraisha/Portfolio.git
 
 ## Authors
 
