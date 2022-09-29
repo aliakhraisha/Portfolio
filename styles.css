@@ -1,23 +1,32 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  flex-wrap: nowrap;
 }
 
-section {
-  height: 50vh;
-  width: 100vw;
+nav {
+  min-height: 74px;
+  background-image: url("image_geometry_1.svg");
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: 30px 16px 0;
+  height: 336;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-style: regular;
+  font-style: normal;
   font-size: 50px;
+  margin: auto 0;
   line-height: 50px;
   color: #1a2236;
-  width: 25%;
+  width: 220px;
+  height: 100px;
 }
 
 #headline {
@@ -25,24 +34,32 @@ h1 {
   font-style: bold;
   font-size: 14px;
   line-height: 21px;
+  margin: 20px 0 40px;
   color: #1a2236;
-  letter-spacing: -1%;
+  letter-spacing: -0.01em;
 }
 
-#box {
+#collaboration {
   font-family: 'Poppins', sans-serif;
-  background-color: #1a2236;
+  font-style: normal;
   color: #fff;
   font-size: 16px;
-  padding: 15px;
-  height: 25px;
-  width: 80%;
-  margin: 5% auto;
+  line-height: 24px;
   text-align: center;
+  background-color: #1a2236;
+  margin: auto;
+  height: 38px;
+  width: 288px;
+  padding-top: 12px;
 }
 
-footer > img {
+footer {
+  height: 240px;
   width: 100%;
+  background-image: url("image_geometry_2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 32px;
 }
 
 .alignleft {
@@ -51,4 +68,7 @@ footer > img {
 
 .alignright {
   float: right;
+  padding: 19px 16px;
+  width: 20px;
+  height: 14px;
 }

@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Set up a "Hello Microverse" project.
+> Set up a "prtfolio" project.
 
 
 ## Built With
