@@ -20,9 +20,9 @@ git clone git@github.com:aliakhraisha/Portfolio.git
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/aliakhraisha)
-- Twitter: [@twitterhandle](https://twitter.com/alia_khraisha)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/engaliakhraisha/)
+- GitHub: aliakhraisha[@githubhandle](https://github.com/aliakhraisha)
+- Twitter: alia_khraish[@twitterhandle](https://twitter.com/alia_khraisha)
+- LinkedIn:engaliakhraisha@[LinkedIn](https://www.linkedin.com/in/engaliakhraisha/)
 
 ## 🤝 Contributing
 
