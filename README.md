@@ -41,4 +41,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/aliakhraisha/Portfolio/blob/setup-and-mobile-first/licence)licensed.
