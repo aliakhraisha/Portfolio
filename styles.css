@@ -12,7 +12,7 @@ ul,li{padding:0;
 
 nav {
   min-height: 74px;
-  background-image: url("image_geometry_1.svg");
+  background-image: url("images/image_geometry_1.svg");
   background-repeat: no-repeat;
 }
 
@@ -72,7 +72,7 @@ h1 {
 footer {
   height: 250px;
   width: 100vw;
-  background-image: url("image_geometry_2.svg");
+  background-image: url("images/image_geometry_2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 32px;
@@ -140,6 +140,7 @@ line-height: 16px;
   text-align: center;
   padding:6px 10px;
 }
+
 #projectlink{
   display: flex;
   flex-wrap: nowrap;
@@ -198,20 +199,22 @@ padding-left: 18px;
 
 #languages{
   background: #1C528A;
-  background-image: url("languagesimage.svg");
-
+  background-image: url("images/languagesimage.svg");
 }
+
 #frameworks{
   background: #E2505C;
-  background-image: url("ic_framework.png");  
+  background-image: url("images/ic_framework.png");  
 }
+
 #skills{
   background: #FEBF52;
-  background-image: url("ic_skills.svg");  
-
+  background-image: url("images/ic_skills.svg");  
 }
+
 #aboutmyself ul{
-text-align: left0;}
+text-align: left0;
+}
 
 .alignright {
   float: right;
