@@ -146,20 +146,20 @@
   <header> 
      <h1>Get started</h1>
      <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-     <form action="https://formspree.io/f/{form_id}" method="post">
+     <form action="https://formspree.io/f/mzbwgklj" method="POST">
       <div>
         <label class="label">Your name</label><br/>
-        <input required id="nameinput" type="text" placeholder="Anastasiia" maxlength="30"/>
+        <input required id="nameinput" name="full name"type="text" placeholder="Anastasiia" maxlength="30"/>
       </div>
       <div>
         <label class="label">Your email</label><br/>
-        <input required id="emailinput" type="email" placeholder="l"/>
+        <input required id="emailinput" name="email" type="email" placeholder="l"/>
       </div>
       <div>
-        <textarea required placeholder="Enter your message here..." rows="5" cols="30" maxlength="500"></textarea>
+        <textarea required name="message" placeholder="Enter your message here..." rows="5" cols="30" maxlength="500"></textarea>
       </div>
+      <input id="collaborationbox" type="submit" value="Start collaboration">
      </form>
-     <input id="collaborationbox" type="submit" value="Start collaboration">
   </header>
   <footer>
     <div id="resumdownloadlink"><a>Get my Resume</a><img id="union2" src="images/Union2.svg" alt="Union2 image"></div>
