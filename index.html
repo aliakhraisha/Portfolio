@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&display=swap" rel="stylesheet">
-
 </head>
-
+<!-------- Body -------->
 <body>
-<nav>
-      <img  class="alignright" src="images/ic_menu.svg" alt="ic-menu image">
-</nav>
-<section id="headline">
-    <header> 
-     <h1>Charlie<br>Giorgania</h1>
-     <p id="paragraph" class="alignleft" >Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.<br>If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-     <p id="collaborationbox"><a>Start collaboration</a></P>
-    </header>
-</section>
-<footer>
-</footer>
 
+<!-------- First Page -------->
+<section id="firstpage">
+  <nav>
+      <img  class="alignright" src="images/ic_menu.svg" alt="ic-menu image">
+  </nav>
+  <header> 
+     <h1>Charlie<br>Giorgania</h1>
+     <p id="paragraph">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.<br>If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+     <p id="collaborationbox"><a>Start collaboration</a></P>
+  </header>
+  <footer>
+  </footer>
+</section>
+<!-------- Works Section-------->
 <section id="works">
     <h1>Projects</h1>
     <section id="project">
@@ -38,7 +38,7 @@
             <li><a>Ruby on Rails</a></li>
             <li><a>JavaScript</a></li>
         </ul>
-        <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+        <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
     </div>
     </section>
     <section id="project">
@@ -50,7 +50,7 @@
               <li><a>Ruby on Rails</a></li>
               <li><a>JavaScript</a></li>
           </ul>
-          <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+          <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
       </div>
       </section>
       <section id="project">
@@ -62,7 +62,7 @@
               <li><a>Ruby on Rails</a></li>
               <li><a>JavaScript</a></li>
           </ul>
-          <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+          <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
       </div>
       </section>
       <section id="project">
@@ -74,7 +74,7 @@
               <li><a>Ruby on Rails</a></li>
               <li><a>JavaScript</a></li>
           </ul>
-          <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+          <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
       </div>
       </section>
       <section id="project">
@@ -86,7 +86,7 @@
               <li><a>Ruby on Rails</a></li>
               <li><a>JavaScript</a></li>
           </ul>
-          <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+          <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
       </div>
       </section>
       <section id="project">
@@ -98,15 +98,15 @@
               <li><a>Ruby on Rails</a></li>
               <li><a>JavaScript</a></li>
           </ul>
-          <div id="projectlink"><a>See this project</a><img id="union" src="images/Union.svg" alt="Union image"></div>
+          <div id="projectlink"><a>See this project</a><img id="union1" src="images/Union1.svg" alt="Union1 image"></div>
       </div>
       </section>
 </section>
-
+<!-------- About My Self Section-------->
 <section id="aboutmyself">
     <header> 
         <h1>About</h1>
-        <p id="paragraph" class="alignleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
         <div id="cvdownloadbox"><a>Get my CV</a><img id="ic_download" src="images/ic_download.svg" alt="ic_download image"></div>
     </header>    
     <section id="languages">
@@ -138,6 +138,40 @@
             <li>Terminal</li>
           </ul>
     </section>
+</section>
+<!-------- Last Page -------->
+<section id="lastpage">
+  <nav>
+  </nav>
+  <header> 
+     <h1>Get started</h1>
+     <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+     <form>
+      <div>
+        <label class="label">Your name</label><br/>
+        <input required id="nameinput" type="text" placeholder="Anastasiia" maxlength="30"/>
+      </div>
+      <div>
+        <label class="label">Your email</label><br/>
+        <input required id="emailinput" type="email" placeholder="l"/>
+      </div>
+      <div>
+        <textarea required placeholder="Enter your message here..." rows="5" cols="30" maxlength="500"></textarea>
+      </div>
+     </form>
+     <input id="collaborationbox" type="submit" value="Start collaboration">
+  </header>
+  <footer>
+    <div id="resumdownloadlink"><a>Get my Resume</a><img id="union2" src="images/Union2.svg" alt="Union2 image"></div>
+    <div id="socialmedia">
+      <a><img src="images/ic_stackoverflow.svg" alt="stackflow"></a>
+      <a></a><img src="images/ic_github.svg" alt="github"></a>
+      <a><img src="images/ic_twitter.svg" alt="twitter"></a>
+      <a></a><img src="images/ic_linkedin.svg" alt="linkedin"></a>
+      <a></a><img src="images/ic_medium.svg" alt="medium"></a>
+      <a></a><img src="images/ic_angellist.svg" alt="angellist"></a>
+    </div>
+  </footer>
 </section>
 </body>
 </html>
