@@ -1,4 +1,6 @@
 
+/* <!-------- CSS Reset --------> */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@ li {
   padding: 0;
   margin: 0;
 }
+
 /* <!------ Fonts links ------> */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&display=swap');
