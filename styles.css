@@ -39,8 +39,8 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 30%;
-  /* padding-bottom: 40px; */
 
+  /* padding-bottom: 40px; */
 }
 
 #navshort {
@@ -50,8 +50,8 @@ body {
   background-repeat: no-repeat;
 }
 
-/* to disable the desktop navbar in the mobile view*/
-#navbar{ 
+/* to disable the desktop navbar in the mobile view */
+#navbar {
   display: none;
 }
 
