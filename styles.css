@@ -13,10 +13,6 @@ li {
   margin: 0;
 }
 
-/* <!------ Fonts links ------> */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&display=swap');
-
 /* <!-------- Body --------> */
 
 body {
@@ -30,17 +26,9 @@ body {
 }
 
 /* <!-------- First Page --------> */
-
-#firstpage {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-image: url("images/image_geometry_2.svg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100% 30%;
-
-  /* padding-bottom: 40px; */
+/* to disable the desktop navbar in the mobile view */
+#navbar {
+  display: none;
 }
 
 #navshort {
@@ -50,11 +38,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* to disable the desktop navbar in the mobile view */
-#navbar {
-  display: none;
-}
-
 .alignright {
   width: 20px;
   height: 14px;
@@ -62,12 +45,25 @@ body {
   float: right;
 }
 
-#firstpage header {
+#firstpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/image_geometry_2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+#firstpage > header {
   width: 90%;
+  margin-bottom: 220px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-self: center;
+
 }
 
 h1 {
@@ -81,11 +77,8 @@ h1 {
 }
 
 #paragraph {
-  height: 126px;
-  margin: 20px 0 0;
-  align-self: center;
+  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
@@ -95,7 +88,7 @@ h1 {
 #collaborationbox {
   width: 100%;
   height: 50px;
-  margin: 40px 0 32px;
+  margin: 40px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,7 +127,9 @@ h1 {
 
 #works h1 {
   width: 90%;
+  margin-top: 40px;
   margin-bottom: 32px;
+  margin-left: 16px;
 }
 
 #project {
@@ -208,13 +203,11 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
 }
 
 #aboutmyself h1 {
   margin-top: 56px;
-  align-self: center;
+  align-self: left;
 }
 
 #union1 {
@@ -222,13 +215,13 @@ h1 {
 }
 
 #cvdownloadbox {
+  width: 100%;
   height: 50px;
-  margin: 32px auto 40px;
+  margin: 32px 0 40px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  align-self: center;
   gap: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -251,15 +244,18 @@ h1 {
   border: 1.5px solid #1a2236;
   outline-style: solid;
 }
-
-#aboutmyself section {
-  height: 289px;
+#boxes{
   width: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  flex-wrap: nowrap;
+}
+
+div.box {
+  min-height: 289px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -267,16 +263,22 @@ h1 {
 #languages {
   background: #1c528a;
   background-image: url("images/languagesimage.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 #frameworks {
   background: #e2505c;
   background-image: url("images/ic_framework.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 #skills {
   background: #febf52;
   background-image: url("images/ic_skills.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 #aboutmyself h2 {
@@ -300,15 +302,18 @@ h1 {
 
 #lastpage {
   width: 100%;
-  height: 100%vh;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   background: #f9f9fa;
+  background-image: url("images/image_geometry_1.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 #lastpage header {
   width: 90%;
+  margin-top: 106px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -325,6 +330,7 @@ form {
   grid-template-rows: 52px 52px 112px;
   grid-template-columns: 100%;
   gap: 8px;
+  background: #f9f9fa;
 }
 
 form div {
@@ -386,7 +392,7 @@ form textarea {
 
 #lastpage footer {
   height: 150px;
-  margin-top: 32px;
+  margin-top: 64px;
   background: #1a2236;
   color: #92dcdc;
 }

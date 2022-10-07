@@ -1,6 +1,9 @@
 
 /* Desktop devices (768px and up) */
 @media only screen and (min-width: 768px) {
+
+/* <!-------- First Page --------> */
+
   #navshort {
     display: none;
   }
@@ -31,32 +34,42 @@
     text-decoration: underline;
   }
 
-  #firstpage footer {
-    display: none;
-  }
-
   #firstpage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    display: grid;
-
-    /* grid-template-rows: 100px 877px;
-    grid-template-columns: auto; */
-    background-image: url("images/image-geometry_1.svg");
+    /* width: 1440px;
+    height: 977px; */
+    background-image: url("images/image-geometry_1.svg"),
+                      url("images/image_dots.svg");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 48.75% 90%;
-
-    /* background-size: cover; */
-    background-attachment: fixed;
-    padding: 0;
-    margin: 0;
-    border: 2px solid red;
+    background-position: bottom left 100%, 
+                         bottom right calc(100% / 1440 * 786.215);
+    /* background-position: bottom right, bottom right 55.5%; */
+    background-size: calc(100% / 1440 * 702) calc(100% / 977 * 877),
+                     calc(100% / 1440 * 168.43) calc(100% / 977 * 168.43);
+    /* background-size: 48.75% 90%,12.153% 17.912%; */
   }
 
   #firstpage header {
     width: 33%;
-    padding: 192px 94px 160px 20px;
-    border: 2px solid red;
+    height: 50%;
+    margin: 192px 796px auto auto;
+ }
+
+ h1 {
+    font-size: 110px;
   }
+
+  #paragraph {
+    margin-top: 60px;
+}
+
+#collaborationbox {
+    width: 50%;
+    align-self: left;
+    height: 70px;
+}
+/* <!-------- Works Section--------> */
+/* <!----- About My Self Section-----> */
+/* <!-------- Last Page --------> */
 }
