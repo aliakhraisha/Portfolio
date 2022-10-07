@@ -47,7 +47,6 @@ body {
 
 #firstpage {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-image: url("images/image_geometry_2.svg");
@@ -136,6 +135,7 @@ h1 {
   width: 100%;
   display: grid;
   gap: 0;
+  margin: 0;
   grid-template-rows: 53% 47%;
 }
 
@@ -325,7 +325,7 @@ div.box {
   margin-bottom: 32px;
 }
 
-form {
+#inputfeilds {
   display: grid;
   grid-template-rows: 52px 52px 112px;
   grid-template-columns: 100%;
@@ -335,9 +335,9 @@ form {
 
 form div {
   border: 1px solid #dfdfe0;
-  background: #fff;
   border-radius: 4px;
   box-sizing: border-box;
+  background: #FFFFFF;
 }
 
 .label {
@@ -386,7 +386,14 @@ form textarea {
   color: #7d7c84;
 }
 
-#lastpage #collaborationbox {
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form #collaborationbox {
+  width:100%;
+  height: 44px;
   margin-top: 20px;
 }
 
@@ -400,6 +407,10 @@ form textarea {
 #union2 {
   margin-left: 12px;
 }
+
+/* #ic-link_teal{
+  display:none;
+} */
 
 #resumdownloadlink {
   height: 24px;

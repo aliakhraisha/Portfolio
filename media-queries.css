@@ -39,16 +39,10 @@
     height: 100vh;
     /* width: 1440px;
     height: 977px; */
-    background-image: url("images/image-geometry_1.svg"),
-                      url("images/image_dots.svg");
+    background-image: url("images/image-geometry_1.svg");
     background-repeat: no-repeat;
-    background-position: bottom left 100%, 
-                         bottom right calc(100% / 1440 * 786.215);
-    /* background-position: bottom right, bottom right 55.5%; */
-    background-size: calc(100% / 1440 * 702) calc(100% / 977 * 877),
-                     calc(100% / 1440 * 168.43) calc(100% / 977 * 168.43);
-    /* background-size: 48.75% 90%,12.153% 17.912%; */
-  }
+    background-position: bottom left 100%;
+    background-size: calc(100% / 1440 * 877) calc(100% / 977 * 877);  }
 
   #firstpage header {
     width: 33%;
@@ -111,4 +105,66 @@
   }
 
 /* <!-------- Last Page --------> */
+#lastpage {
+    width: 100%;
+    background-image: url("images/image-geometry_6.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom 123px;
+    background-size: 100% calc(100% / 950 * 827);
+    justify-content:space-between;
+}
+
+#lastpage header {
+    width:37.6%;
+}
+
+#inputfeilds{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: #f9f9fa;
+  }
+
+  #inputfeilds div {
+    flex-grow: 1;
+  }
+  form input {
+    height: 35px;
+  }
+  form textarea {
+    height: 119px;
+  }
+#lastpage #collaborationbox {
+    width:50%;
+    height: 70px;
+    margin-top: 40px;
+    align-self: center;
+ }
+
+ footer #union2{
+    display: none;
+  }
+  
+ #ic-link_teal{
+    margin-left: 16px;
+}
+
+ #resumdownloadlink {
+  margin: 0; 
+ }
+
+ #socialmedia {
+ margin: 0;
+ justify-content: space-between;
+ gap:15px;
+}
+ 
+#lastpage footer {
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
 }
