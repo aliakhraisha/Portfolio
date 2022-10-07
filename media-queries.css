@@ -71,5 +71,44 @@
 }
 /* <!-------- Works Section--------> */
 /* <!----- About My Self Section-----> */
+#aboutmyself {
+    width: 100%;
+    /* width: 1440px; */
+    height: 952px;
+    padding: 216px 160px 158px;
+    gap: 96px;
+    flex-direction: row; 
+    background-image: url("images/image_dots_with_teal.svg");
+    background-repeat: no-repeat;
+    background-position: top 580px left 516px;
+  }
+
+#aboutmyself header{    
+    order:4;
+    margin-top:calc(244px - 216px);
+  }
+
+#aboutmyself h1 {
+    margin-top: 0px;
+  }
+
+#aboutmyself #paragraph {
+    margin-top: 30px;
+}
+
+#cvdownloadbox {
+  width: 57%;
+  height: 70px;
+  margin-top: 42px;
+}
+
+#boxes{    
+    display: grid;
+    width: 578px;
+    height: 578px;
+    grid-template-columns: 289px 289px;
+    grid-template-rows: 289px 289px;
+  }
+
 /* <!-------- Last Page --------> */
 }
