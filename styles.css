@@ -20,7 +20,7 @@ body {
 nav {
   width: 320px;
   height: 74px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   background-image: url("images/image_geometry_1.svg");
   background-repeat: no-repeat;
 }
@@ -28,7 +28,7 @@ nav {
 .alignright {
   width: 20px;
   height: 14px;
-  margin:19px 16px;
+  margin: 19px 16px;
   float: right;
 }
 
@@ -46,7 +46,7 @@ h1 {
 #paragraph {
   width: 288px;
   height: 126px;
-  margin: 20px 16px 0px;
+  margin: 20px 16px 0;
   font-family: 'Poppins', sans-serif;
   font-style: bold;
   font-size: 14px;
@@ -92,7 +92,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#works h1{
+
+#works h1 {
   margin-bottom: 32px;
 }
 
@@ -159,7 +160,8 @@ footer {
   line-height: 24px;
   justify-content: space-around;
 }
-#aboutmyself h1{
+
+#aboutmyself h1 {
   margin-top: 56px;
 }
 
@@ -172,21 +174,23 @@ footer {
   flex-direction: column;
   flex-wrap: nowrap;
 }
-h2{
+
+h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #fff;
   font-size: 16px;
 }
+
 #cvdownloadbox {
   width: 288px;
   height: 50px;
   margin: 32px 16px 40px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content:center;
-  align-items:center;
-  gap:20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #fff;
@@ -252,4 +256,3 @@ h2{
   line-height: 27px;
   letter-spacing: -0.0525em;
 }
-
