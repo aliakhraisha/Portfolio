@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  overflow:scroll;
 }
 
 /* <!-------- First Page --------> */
@@ -75,7 +76,7 @@ h1 {
   line-height: 100%;
 }
 
-#paragraph {
+.paragraph {
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -84,7 +85,7 @@ h1 {
   letter-spacing: -0.01em;
 }
 
-#collaborationbox {
+.collaborationbox {
   width: 100%;
   height: 50px;
   margin: 40px 0 0;
@@ -100,13 +101,13 @@ h1 {
   background-color: #1a2236;
 }
 
-#collaborationbox:hover {
+.collaborationbox:hover {
   background-color: #fff;
   color: #1a2236;
   border: 1px solid #1a2236;
 }
 
-#collaborationbox:active {
+.collaborationbox:active {
   background-color: #fff;
   color: #1a2236;
   border: 1.5px solid #1a2236;
@@ -131,7 +132,7 @@ h1 {
   margin-left: 16px;
 }
 
-#project {
+[class^="project"] {
   width: 100%;
   display: grid;
   gap: 0;
@@ -139,11 +140,11 @@ h1 {
   grid-template-rows: 53% 47%;
 }
 
-#projectimage {
+.projectimage {
   width: 100%;
 }
 
-#projectdetails {
+.projectdetails {
   display: flex;
   flex-direction: column;
   background-color: #1a2236;
@@ -153,7 +154,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
-#projectname {
+.projectname {
   height: 16px;
   margin: 20px auto 0 20px;
   font-weight: 300;
@@ -161,7 +162,7 @@ h1 {
   line-height: 16px;
 }
 
-#projectdetails ul {
+.projectdetails ul {
   margin: 16px auto 0 20px;
   display: grid;
   gap: 10px;
@@ -169,7 +170,7 @@ h1 {
   justify-content: start;
 }
 
-#projectdetails li {
+.projectdetails li {
   height: 20;
   padding: 6px 10px;
   background: #98dede;
@@ -183,17 +184,27 @@ h1 {
   text-align: center;
 }
 
-#projectlink {
+.projectlink {
+  width: auto;
+  margin: 20px auto 20px 20px;
   padding: 10px 12px 10px 10px;
   display: flex;
   flex-wrap: nowrap;
   border: 2px solid #fff;
-  margin: 20px auto 20px 20px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  justify-content: space-around;
+}
+.union {
+  margin-left: -12px;
+}
+
+.union1 {
+  margin-left: 12px;
+}
+.project5desktop{
+  display: none;
 }
 
 /* <!-------- About My Self Section--------> */
@@ -208,10 +219,6 @@ h1 {
 #aboutmyself h1 {
   margin-top: 56px;
   align-self: left;
-}
-
-#union1 {
-  margin-left: 12px;
 }
 
 #cvdownloadbox {
@@ -244,6 +251,7 @@ h1 {
   border: 1.5px solid #1a2236;
   outline-style: solid;
 }
+
 #boxes{
   width: 100%;
   display: flex;
@@ -391,7 +399,7 @@ form{
   flex-direction: column;
 }
 
-form #collaborationbox {
+form .collaborationbox {
   width:100%;
   height: 44px;
   margin-top: 20px;
@@ -408,9 +416,9 @@ form #collaborationbox {
   margin-left: 12px;
 }
 
-/* #ic-link_teal{
+#ic-link_teal{
   display:none;
-} */
+}
 
 #resumdownloadlink {
   height: 24px;

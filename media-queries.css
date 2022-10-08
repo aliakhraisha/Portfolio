@@ -64,6 +64,143 @@
     height: 70px;
 }
 /* <!-------- Works Section--------> */
+
+#works {
+  border:2px solid orange;
+  /* height: 100%; */
+  background-image: url("images/work-background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  background-position: left top;
+  gap: 0;
+  margin: 0;
+  margin-top: 210px;
+  padding: 0;
+  display: grid;
+  /* gap:20px; */
+  grid-template-areas:
+    'header project1  project1'
+    'project2  . .'
+    'project3 project3 project5'
+    '. project4 .';
+}
+.workheader { grid-area: header; }
+.project1 { grid-area: project1; }
+.project2 { grid-area: project2; }
+.project3 { grid-area: project3; }
+.project4 { grid-area: project4; }
+.project5 { grid-area: project5; }
+
+
+#works h1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-90deg);
+  font-weight: 400px;
+  font-size: 110px;
+  line-height: 100%;
+}
+
+#desktopremove{
+  display: none;
+}
+
+
+[class^="project"], .workheader{
+  font-size: 50px;
+}
+
+#project1 {
+  width: 900px;
+  height: 420px;
+  margin: 0;
+  padding: 0;
+}
+
+.project1 .projectdetails{
+  height: 320px;
+}
+
+.project1 .projectname {
+  height: 48px;
+  margin: 60px auto 0 60px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80%;
+}
+
+.project1 .projectdetails ul {
+  margin: 34px auto 0 60px;
+  gap: 20px;
+}
+
+.project1 .projectdetails li {
+  height: 40px;
+  padding: 12px 20px;
+  background: #98dede;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.projectlink {
+  width: auto;
+  height: 51px;
+  margin: 60px auto 60px 60px;
+  padding: 12px 53px 12px 20px;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  color:  #1a2236;
+}
+
+#project2, #project4,  #project5{
+  width:465px;
+  height: auto;
+  }
+  
+#project3 img{
+    width:800px;
+    height:auto;
+  }
+
+#project1{
+  position: relative;
+
+}
+#project5 img{    
+order:1;
+}
+
+.project5 .projectdetails{
+  margin: 0;
+}
+
+.project5 .projectname {
+  height: 32px;
+  margin: 30px auto 0 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80%;
+  }
+
+  .project5desktop{
+    display: block;
+  }
+
+  .project5phone{
+    display: none;
+  }
+
+  .project5 .projectdetails ul {
+    margin: 20px auto 0 30px;
+    gap: 20px;
+  }
+  
+.project5 .projectlink {
+  margin: 15px auto 30px 30px;
+}
+
+
 /* <!----- About My Self Section-----> */
 #aboutmyself {
     width: 100%;
@@ -147,6 +284,7 @@
   }
   
  #ic-link_teal{
+  display: block;
     margin-left: 16px;
 }
 
