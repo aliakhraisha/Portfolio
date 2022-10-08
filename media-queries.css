@@ -106,7 +106,7 @@
     height: 400px;
     margin: 0;
     padding: 0;
-    transform:translate(5px,-5px);
+    transform: translate(5px, -5px);
   }
 
   #project1 .projectimage {
@@ -155,7 +155,7 @@
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(-30px,220px);
+    transform: translate(-30px, 220px);
   }
 
   #project3 {
@@ -163,21 +163,21 @@
     width: 830px;
     margin: 0;
     padding: 0;
-    transform: translate(-30px,110px);
+    transform: translate(-30px, 110px);
     transition: width 1s, height 1s;
-}
+  }
 
-#project3:hover {
-  width: 1000px;
-  height: 700px;
-}
+  #project3:hover {
+    width: 1000px;
+    height: 700px;
+  }
 
   #project4 {
     width: 465px;
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(-162px,133px);
+    transform: translate(-162px, 133px);
   }
 
   #project5 {
@@ -185,7 +185,7 @@
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(5px,280px);
+    transform: translate(5px, 280px);
   }
 
   #project5 .projectimage {

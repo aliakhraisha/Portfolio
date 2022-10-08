@@ -74,22 +74,24 @@ h1 {
   line-height: 100%;
 }
 
-  #myname  {
-    overflow: hidden;
-    border-right: .2em solid black;
-    letter-spacing: .1em;
-    animation: typing 3.5s steps(30, end),
-    blinking-cursor .5s step-end infinite;
+#myname {
+  overflow: hidden;
+  border-right: 0.2em solid black;
+  letter-spacing: 0.1em;
+  animation:
+    typing 3.5s steps(30, end),
+    blinking-cursor 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
 
-  @keyframes typing {
-    from {
-      width: 0
-    }
-    to {
-      width: 100%
-    }
+  to {
+    width: 100%;
   }
+}
 
 .paragraph {
   margin-top: 20px;
