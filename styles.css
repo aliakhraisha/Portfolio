@@ -27,8 +27,6 @@ body {
 }
 
 /* <!-------- First Page --------> */
-
-/* to disable the desktop navbar in the mobile view */
 #navbar {
   display: none;
 }
@@ -442,3 +440,4 @@ form {
   color: #fff;
   margin-top: 30px;
 }
+
