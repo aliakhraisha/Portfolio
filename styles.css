@@ -74,6 +74,23 @@ h1 {
   line-height: 100%;
 }
 
+  #myname  {
+    overflow: hidden;
+    border-right: .2em solid black;
+    letter-spacing: .1em;
+    animation: typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+
 .paragraph {
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
@@ -334,9 +351,25 @@ div.box {
   align-self: center;
 }
 
-#lastpage p {
+#lastpage .paragraph {
   height: 63px;
   margin-bottom: 32px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 #inputfeilds {

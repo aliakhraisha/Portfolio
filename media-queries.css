@@ -67,17 +67,20 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: left top;
-    gap: 0;
-    margin: 0;
-    margin-top: 210px;
-    padding: 0;
     display: grid;
+    grid-row-start: auto;
+    gap: 0;
+    margin-bottom: 130px;
+    margin-top: 210px;
+    padding: 0%;
+    grid-auto-rows: min-content;
     grid-template-areas:
-      'header project1  project1'
-      'project2  . .'
-      'project3 project3 project5'
-      '. project4 .';
+      'header project1 project1'
+      'project2  . project5'
+      'project3 project3 .'
+      '.  .  project4';
   }
+
   .workheader { grid-area: header; }
   .project1 { grid-area: project1; }
   .project2 { grid-area: project2; }
@@ -98,20 +101,21 @@
     display: none;
   }
 
-  [class^="project"],
-  .workheader {
-    font-size: 50px;
-  }
-
   #project1 {
-    width: 900px;
-    height: 420px;
+    width: 960px;
+    height: 400px;
     margin: 0;
     padding: 0;
+    transform:translate(5px,-5px);
+  }
+
+  #project1 .projectimage {
+    width: 960px;
+    height: auto;
   }
 
   .project1 .projectdetails {
-    height: 320px;
+    height: 350px;
   }
 
   .project1 .projectname {
@@ -146,20 +150,47 @@
     color: #1a2236;
   }
 
-  #project2,
-  #project4,
+  #project2 {
+    width: 465px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(-30px,220px);
+  }
+
+  #project3 {
+    height: auto;
+    width: 830px;
+    margin: 0;
+    padding: 0;
+    transform: translate(-30px,110px);
+    transition: width 1s, height 1s;
+}
+
+#project3:hover {
+  width: 1000px;
+  height: 700px;
+}
+
+  #project4 {
+    width: 465px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(-162px,133px);
+  }
+
   #project5 {
     width: 465px;
     height: auto;
-  }
-
-  #project3 .projectimage {
-    width: 800px;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(5px,280px);
   }
 
   #project5 .projectimage {
     order: 1;
+    width: 100%;
   }
 
   .project5 .projectname {
