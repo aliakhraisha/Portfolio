@@ -45,7 +45,7 @@
   #firstpage header {
     width: 33%;
     height: 50%;
-    margin: 192px auto 190px 160px ;
+    margin: 192px auto 190px 160px;
   }
 
   h1 {
@@ -87,7 +87,6 @@
   .project4 { grid-area: project4; }
   .project5 { grid-area: project5; }
 
-
   #works h1 {
     transform: rotate(-90deg);
     font-weight: 400px;
@@ -95,7 +94,7 @@
     line-height: 100%;
     align-self: center;
     margin-top: -100px;
-    margin-left:-50px;
+    margin-left: -50px;
   }
 
   #desktopremove {
@@ -107,7 +106,7 @@
     height: 370px;
     margin: 0;
     padding: 0;
-    transform: translate(0px, 0px);
+    transform: translate(0, 0);
   }
 
   #project1 .projectimage {
@@ -267,45 +266,44 @@
 
   /* <!-------- Last Page --------> */
 
-  #lastpage {    
+  #lastpage {
     width: 100%;
-    background-image: url("images/image-geometry_6.svg"),url("images/image-geometry_7.svg");
+    background-image: url("images/image-geometry_6.svg"), url("images/image-geometry_7.svg");
     background-position: left top, right bottom +123px;
-    background-size: 20% ,20%;
+    background-size: 20%, 20%;
   }
 
   #lastpage header {
     /* width: 37.6%; */
     width: 548px;
     margin-top: 168px;
-    }
+  }
 
   #lastpage .paragraph {
-      margin-top: 40px;
-      margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
 
-    }
-  
-  .phoneremove{
-      display: block;
-    }
-  
-    .desktopremove {
-      display: none;
-    }
+  .phoneremove {
+    display: block;
+  }
 
-    #inputfeilds {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px 30px ;
-      background: #f9f9fa;
-    }
+  .desktopremove {
+    display: none;
+  }
+
+  #inputfeilds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    background: #f9f9fa;
+  }
 
   #inputfeilds div {
     width: auto;
     height: auto;
     border: none;
-    background-color:#f9f9fa;
+    background-color: #f9f9fa;
   }
 
   .label {
@@ -315,23 +313,22 @@
     line-height: 18px;
     margin-bottom: 4px;
     margin-left: 3px;
-   }
+  }
 
   form input {
     width: 254px;
     height: 60px;
     margin-top: 0;
     margin-left: 3px;
-    background: #FFFFFF;
-    border: 1px solid #E0E0E0;
+    background: #fff;
+    border: 1px solid #e0e0e0;
     border-radius: 4px;
   }
-  
-  input.boldborder{
-  border: 1px solid #252C40;
-  margin-right: 3px;
 
-}
+  input.boldborder {
+    border: 1px solid #252c40;
+    margin-right: 3px;
+  }
 
   input::placeholder {
     font-size: 16px;
@@ -343,16 +340,17 @@
   form textarea {
     width: 542px;
     height: 140px;
-    border: 1px solid #E0E0E0;
+    border: 1px solid #e0e0e0;
     margin-left: 3px;
     margin-top: -20px;
     padding-top: 18px;
     padding-left: 20px;
+  }
 
+  div .phoneremove {
+    display: block;
   }
-  div .phoneremove{
-    display:block;
-  }
+
   ::placeholder {
     font-size: 16px;
     line-height: 24px;
@@ -364,6 +362,7 @@
     margin-top: 40px;
     align-self: center;
   }
+
   /* ==================================== */
   #lastpage footer {
     height: 123px;
