@@ -66,7 +66,7 @@
   #works {
     background-image: url("images/work-background1.svg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: left top;
     display: grid;
     gap: 0;
@@ -104,7 +104,7 @@
     height: 400px;
     margin: 0;
     padding: 0;
-    transform: translate(5px, -5px);
+    /* transform: translate(5px, -5px); */
   }
 
   #project1 .projectimage {
@@ -138,7 +138,7 @@
   }
 
   .projectlink {
-    width: auto;
+    width: 558px;
     height: 51px;
     margin: 60px auto 60px 60px;
     padding: 12px 53px 12px 20px;
@@ -149,7 +149,7 @@
   }
 
   #project2 {
-    width: 465px;
+    /* width: 465px; */
     height: auto;
     margin: 0;
     padding: 0;
@@ -161,7 +161,7 @@
     width: 830px;
     margin: 0;
     padding: 0;
-    transform: translate(-30px, 110px);
+    /* transform: translate(-30px, 110px); */
     /* transition: width 1s, height 1s; */
   }
 
@@ -171,19 +171,19 @@
   } */
 
   #project4 {
-    width: 465px;
+    /* width: 490px; */
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(-162px, 133px);
+    /* transform: translate(-162px, 133px); */
   }
 
   #project5 {
-    width: 465px;
+    /* width: 490px; */
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(5px, 280px);
+    /* transform: translate(5px, 280px); */
   }
 
   #project5 .projectimage {
@@ -262,37 +262,96 @@
   }
 
   /* <!-------- Last Page --------> */
-  #lastpage {
+
+  #lastpage {    
     width: 100%;
-    background-image: url("images/image-geometry_6.svg");
-    background-repeat: no-repeat;
-    background-position: right bottom 123px;
-    background-size: 100% calc(100% / 950 * 827);
-    justify-content: space-between;
+    background-image: url("images/image-geometry_6.svg"),url("images/image-geometry_7.svg");
+    background-position: left top, right bottom +123px;
+    background-size: 20% ,20%;
   }
 
   #lastpage header {
-    width: 37.6%;
-  }
+    /* width: 37.6%; */
+    width: 548px;
+    margin-top: 168px;
+    }
 
-  #inputfeilds {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    background: #f9f9fa;
-  }
+  #lastpage .paragraph {
+      margin-top: 40px;
+      margin-bottom: 60px;
+
+    }
+  
+  .phoneremove{
+      display: block;
+    }
+  
+    .desktopremove {
+      display: none;
+    }
+
+    #inputfeilds {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 30px ;
+      background: #f9f9fa;
+    }
 
   #inputfeilds div {
-    flex-grow: 1;
+    width: auto;
+    height: auto;
+    border: none;
+    background-color:#f9f9fa;
   }
 
+  .label {
+    width: auto;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+   }
+
   form input {
-    height: 35px;
+    width: 254px;
+    height: 60px;
+    margin-top: 0;
+    margin-left: 3px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+  }
+  
+  input.boldborder{
+  border: 1px solid #252C40;
+  margin-right: 3px;
+
+}
+
+  input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 18px;
+    padding-left: 20px;
   }
 
   form textarea {
-    height: 119px;
+    width: 542px;
+    height: 140px;
+    border: 1px solid #E0E0E0;
+    margin-left: 3px;
+    margin-top: -20px;
+    padding-top: 18px;
+    padding-left: 20px;
+
+  }
+  div .phoneremove{
+    display:block;
+  }
+  ::placeholder {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   #lastpage .collaborationbox {
@@ -300,6 +359,14 @@
     height: 70px;
     margin-top: 40px;
     align-self: center;
+  }
+  /* ==================================== */
+  #lastpage footer {
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
 
   footer #union2 {
@@ -319,13 +386,5 @@
     margin: 0;
     justify-content: space-between;
     gap: 15px;
-  }
-
-  #lastpage footer {
-    height: 123px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
   }
 }

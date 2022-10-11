@@ -165,27 +165,33 @@
 
 <!-------- Last Page -------->
 <section id="lastpage">
-<header> 
+ <header> 
    <h1>Get started</h1>
-   <div class="paragraph tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-   <span class="tooltiptext">please follow the instruction</span></div>
+   <div class="paragraph tooltip">
+    <p class="desktopremove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    <p class="phoneremove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   <span class="tooltiptext">please follow the instruction</span>
+  </div>
    <form action="https://formspree.io/f/mzbwgklj" method="POST">
+    
     <section id="inputfeilds">
     <div>
       <label class="label">Your name</label><br/>
-      <input required id="nameinput" name="full name"type="text" placeholder="Anastasiia" maxlength="30"/>
+      <input required id="nameinput"  name="full name"type="text" placeholder="Anastasiia" maxlength="30"/>
     </div>
     <div>
       <label class="label">Your email</label><br/>
-      <input required id="emailinput" name="email" type="email" placeholder="l"/>
+      <input required id="emailinput" class="boldborder" name="email" type="email" placeholder="l"/>
     </div>
     <div>
+      <label class="label phoneremove">Message</label><br/>
       <textarea required name="message" placeholder="Enter your message here..." rows="5" cols="30" maxlength="500"></textarea>
     </div>
   </section>
+  
     <input class="collaborationbox" type="submit" value="Start collaboration">
    </form>
-</header>
+ </header>
 <footer>
   <div id="resumdownloadlink"><a>Get my Resume</a><img id="union2" src="images/Union2.svg" alt="Union2 image">
     <img id="ic-link_teal" src="images/ic-link_teal.svg" alt="ic-link_teal image"></div>
