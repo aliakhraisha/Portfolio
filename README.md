@@ -10,6 +10,8 @@
 - HTML, CSS
 - VSC, github
 
+## visit site 
+- https://aliakhraisha.github.io/Portfolio/
 
 ### Setup
 
