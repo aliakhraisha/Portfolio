@@ -68,7 +68,6 @@
     background-size: 100% 100%;
     background-position: left top;
     display: grid;
-    grid-row-start: auto;
     gap: 0;
     margin-bottom: 130px;
     margin-top: 210px;
@@ -89,8 +88,6 @@
   .project5 { grid-area: project5; }
 
   #works h1 {
-    width: 300px;
-    height: 300px;
     transform: rotate(-90deg);
     font-weight: 400px;
     font-size: 110px;
