@@ -1,0 +1,333 @@
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  /* <!-------- First Page --------> */
+  #navshort {
+    display: none;
+  }
+
+  #navbar {
+    background: #fff;
+    box-shadow: 0 0.5px 0 #dddfe6;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navContent {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a2236;
+    margin: 25px;
+  }
+
+  .underlined {
+    text-decoration: underline;
+  }
+
+  #firstpage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/image-geometry_1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left 100%;
+    background-size: calc(100% / 1440 * 877) calc(100% / 977 * 877);
+  }
+
+  #firstpage header {
+    width: 33%;
+    height: 50%;
+    margin: 192px 796px auto auto;
+  }
+
+  h1 {
+    font-size: 110px;
+  }
+
+  #paragraph {
+    margin-top: 60px;
+  }
+
+  .collaborationbox {
+    width: 50%;
+    align-self: left;
+    height: 70px;
+  }
+
+  /* <!-------- Works Section--------> */
+  #works {
+    background-image: url("images/work-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+    display: grid;
+    grid-row-start: auto;
+    gap: 0;
+    margin-bottom: 130px;
+    margin-top: 210px;
+    padding: 0%;
+    grid-auto-rows: min-content;
+    grid-template-areas:
+      'header project1 project1'
+      'project2  . project5'
+      'project3 project3 .'
+      '.  .  project4';
+  }
+
+  .workheader { grid-area: header; }
+  .project1 { grid-area: project1; }
+  .project2 { grid-area: project2; }
+  .project3 { grid-area: project3; }
+  .project4 { grid-area: project4; }
+  .project5 { grid-area: project5; }
+
+  #works h1 {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-90deg);
+    font-weight: 400px;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
+  #desktopremove {
+    display: none;
+  }
+
+  #project1 {
+    width: 960px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    transform: translate(5px, -5px);
+  }
+
+  #project1 .projectimage {
+    width: 960px;
+    height: auto;
+  }
+
+  .project1 .projectdetails {
+    height: 350px;
+  }
+
+  .project1 .projectname {
+    height: 48px;
+    margin: 60px auto 0 60px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+  }
+
+  .project1 .projectdetails ul {
+    margin: 34px auto 0 60px;
+    gap: 20px;
+  }
+
+  .project1 .projectdetails li {
+    height: 40px;
+    padding: 12px 20px;
+    background: #98dede;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
+  .projectlink {
+    width: auto;
+    height: 51px;
+    margin: 60px auto 60px 60px;
+    padding: 12px 53px 12px 20px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
+  #project2 {
+    width: 465px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(-30px, 220px);
+  }
+
+  #project3 {
+    height: auto;
+    width: 830px;
+    margin: 0;
+    padding: 0;
+    transform: translate(-30px, 110px);
+    transition: width 1s, height 1s;
+  }
+
+  #project3:hover {
+    width: 1000px;
+    height: 700px;
+  }
+
+  #project4 {
+    width: 465px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(-162px, 133px);
+  }
+
+  #project5 {
+    width: 465px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: translate(5px, 280px);
+  }
+
+  #project5 .projectimage {
+    order: 1;
+    width: 100%;
+  }
+
+  .project5 .projectname {
+    height: 32px;
+    margin: 30px auto 0 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+  }
+
+  .project5desktop {
+    display: block;
+  }
+
+  .project5phone {
+    display: none;
+  }
+
+  .project5 .projectdetails ul {
+    margin: 20px auto 0 30px;
+    gap: 20px;
+  }
+
+  .project5 .projectdetails li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+  }
+
+  .project5 .projectlink {
+    margin: 15px auto 30px 30px;
+  }
+
+  /* <!----- About My Self Section-----> */
+  #aboutmyself {
+    width: 100%;
+    height: 952px;
+    padding: 216px 160px 158px;
+    gap: 96px;
+    flex-direction: row;
+    background-image: url("images/image_dots_with_teal.svg");
+    background-repeat: no-repeat;
+    background-position: top 580px left 516px;
+  }
+
+  #aboutmyself header {
+    order: 4;
+    margin-top: calc(244px - 216px);
+  }
+
+  #aboutmyself h1 {
+    margin-top: 0;
+  }
+
+  #aboutmyself #paragraph {
+    margin-top: 30px;
+  }
+
+  #cvdownloadbox {
+    width: 57%;
+    height: 70px;
+    margin-top: 42px;
+  }
+
+  #boxes {
+    display: grid;
+    width: 578px;
+    height: 578px;
+    grid-template-columns: 289px 289px;
+    grid-template-rows: 289px 289px;
+  }
+
+  /* <!-------- Last Page --------> */
+  #lastpage {
+    width: 100%;
+    background-image: url("images/image-geometry_6.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom 123px;
+    background-size: 100% calc(100% / 950 * 827);
+    justify-content: space-between;
+  }
+
+  #lastpage header {
+    width: 37.6%;
+  }
+
+  #inputfeilds {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: #f9f9fa;
+  }
+
+  #inputfeilds div {
+    flex-grow: 1;
+  }
+
+  form input {
+    height: 35px;
+  }
+
+  form textarea {
+    height: 119px;
+  }
+
+  #lastpage .collaborationbox {
+    width: 50%;
+    height: 70px;
+    margin-top: 40px;
+    align-self: center;
+  }
+
+  footer #union2 {
+    display: none;
+  }
+
+  #ic-link_teal {
+    display: block;
+    margin-left: 16px;
+  }
+
+  #resumdownloadlink {
+    margin: 0;
+  }
+
+  #socialmedia {
+    margin: 0;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  #lastpage footer {
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
