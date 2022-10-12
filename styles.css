@@ -64,7 +64,7 @@ body {
   align-self: center;
 }
 
-h1 {
+h1, h2{
   align-self: left;
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -137,7 +137,7 @@ form .collaborationbox {
   align-items: center;
 }
 
-#works h1 {
+#works h2 {
   width: 90%;
   margin-top: 40px;
   margin-bottom: 32px;
@@ -209,10 +209,6 @@ form .collaborationbox {
   line-height: 24px;
 }
 
-#aboutmyself h1 {
-  margin-top: 56px;
-}
-
 .union {
   margin-left: -12px;
 }
@@ -234,14 +230,14 @@ form .collaborationbox {
   flex-wrap: nowrap;
 }
 
-head h2 {
+head h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #fff;
   font-size: 16px;
 }
 
-#aboutmyself > h1 {
+#aboutmyself h2 {
   margin-top: 56px;
   align-self: left;
 }
@@ -314,7 +310,7 @@ div.box {
   background-position: bottom right;
 }
 
-#aboutmyself h2 {
+#aboutmyself h3 {
   height: 30px;
   margin: 50px auto 21px 50px;
   font-weight: 800;
