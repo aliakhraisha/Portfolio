@@ -19,7 +19,7 @@
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
   }
 
@@ -113,9 +113,6 @@
     padding: 0;
     grid-template-rows: 44% 56%;
     transform: translate(-20px, -5px);
-  }
-
-  #project1 .projectimage {
   }
 
   .project1 .projectdetails {
