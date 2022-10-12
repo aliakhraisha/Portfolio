@@ -13,11 +13,7 @@ li {
   margin: 0;
 }
 
-/* <!-------- hide-display --------> */
-
-.hideondesktop {
-  display: block;
-}
+  /* <!-------- hideondesktop-hideonphone--------> */
 
 .hideonphone {
   display: none;
