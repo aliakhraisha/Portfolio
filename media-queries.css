@@ -1,17 +1,18 @@
 
 /* Desktop devices (768px and up) */
 @media only screen and (min-width: 768px) {
-
   /* <!-------- hideondesktop-hideonphone--------> */
 
   .hideondesktop {
     display: none;
   }
+
   .hideonphone {
     display: block;
   }
+
   /* <!-------- First Page --------> */
-  
+
   #navbar {
     background: #fff;
     box-shadow: 0 0.5px 0 #dddfe6;
@@ -163,8 +164,8 @@
     margin-left: 15px;
   }
 
-  .hand_pointer{
-    width: 50px ;
+  .hand_pointer {
+    width: 50px;
     height: 70px;
     position: absolute;
     right: 20%;
@@ -212,8 +213,8 @@
   .project5 .projectdetails {
     width: 100%;
     height: fit-content;
-    transform: translate(0px, 35px);
-    }
+    transform: translate(0, 35px);
+  }
 
   #project5 .projectimage {
     order: 1;
