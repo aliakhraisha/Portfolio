@@ -158,11 +158,12 @@ form .collaborationbox {
   display: grid;
   gap: 0;
   margin: 0;
-  grid-template-rows: 53% 47%;
+  grid-template-rows: auto auto;
 }
 
 .projectimage {
   width: 100%;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
 
 .projectdetails {
@@ -356,10 +357,6 @@ div.box {
   margin-bottom: 32px;
 }
 
-.phoneremove {
-  display: none;
-}
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -435,10 +432,6 @@ form textarea {
   margin-left: 16px;
   outline-color: #1a2236;
   outline-width: thin;
-}
-
-div .phoneremove {
-  display: none;
 }
 
 ::placeholder {
