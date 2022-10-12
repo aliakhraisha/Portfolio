@@ -45,7 +45,7 @@
   #firstpage header {
     width: 33%;
     height: 50%;
-    margin: 192px auto 190px 160px ;
+    margin: 192px auto 190px 160px;
   }
 
   h1 {
@@ -66,11 +66,10 @@
   #works {
     background-image: url("images/work-background1.svg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: left top;
     display: grid;
     gap: 0;
-    margin-bottom: 130px;
     margin-top: 210px;
     padding: 0%;
     grid-auto-rows: min-content;
@@ -93,6 +92,9 @@
     font-weight: 400px;
     font-size: 110px;
     line-height: 100%;
+    align-self: center;
+    margin-top: -100px;
+    margin-left: -50px;
   }
 
   #desktopremove {
@@ -100,20 +102,21 @@
   }
 
   #project1 {
-    width: auto;
-    height: 400px;
+    width: 850px;
+    height: 370px;
     margin: 0;
     padding: 0;
-    transform: translate(5px, -5px);
+    transform: translate(0, 0);
   }
 
   #project1 .projectimage {
-    width: 830;
     height: auto;
+    transform: translate(-20px, -5px);
   }
 
   .project1 .projectdetails {
-    height: 350px;
+    height: fit-content;
+    transform: translate(-20px, -45px);
   }
 
   .project1 .projectname {
@@ -138,9 +141,9 @@
   }
 
   .projectlink {
-    width: auto;
+    width: 250px;
     height: 51px;
-    margin: 60px auto 60px 60px;
+    margin: 60px auto 50px 60px;
     padding: 12px 53px 12px 20px;
     background-color: #fff;
     font-size: 18px;
@@ -153,42 +156,42 @@
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(-30px, 220px);
+    transform: translate(-15px, 75px);
   }
 
   #project3 {
     height: auto;
-    width: 830px;
+    width: 730px;
     margin: 0;
     padding: 0;
-    transform: translate(-30px, 110px);
-    /* transition: width 1s, height 1s; */
+    transform: translate(-15px, -25px);
+    transition: width 1s, height 1s;
   }
 
-  /* #project3:hover {
+  #project3:hover {
     width: 1000px;
     height: 700px;
-  } */
+  }
 
   #project4 {
-    width: 465px;
+    width: 490px;
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(-162px, 133px);
+    transform: translate(-97px, -28px);
   }
 
   #project5 {
-    width: 465px;
+    width: 420px;
     height: auto;
     margin: 0;
     padding: 0;
-    transform: translate(5px, 280px);
+    transform: translate(50px, 110px);
   }
 
   #project5 .projectimage {
     order: 1;
-    width: 100%;
+    width: 420px;
   }
 
   .project5 .projectname {
@@ -262,37 +265,95 @@
   }
 
   /* <!-------- Last Page --------> */
+
   #lastpage {
     width: 100%;
-    background-image: url("images/image-geometry_6.svg");
-    background-repeat: no-repeat;
-    background-position: right bottom 123px;
-    background-size: 100% calc(100% / 950 * 827);
-    justify-content: space-between;
+    background-image: url("images/image-geometry_6.svg"), url("images/image-geometry_7.svg");
+    background-position: left top, right bottom +123px;
+    background-size: 20%, 20%;
   }
 
   #lastpage header {
-    width: 37.6%;
+    /* width: 37.6%; */
+    width: 548px;
+    margin-top: 168px;
+  }
+
+  #lastpage .paragraph {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .phoneremove {
+    display: block;
+  }
+
+  .desktopremove {
+    display: none;
   }
 
   #inputfeilds {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px 30px;
     background: #f9f9fa;
   }
 
   #inputfeilds div {
-    flex-grow: 1;
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: #f9f9fa;
+  }
+
+  .label {
+    width: auto;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 4px;
+    margin-left: 3px;
   }
 
   form input {
-    height: 35px;
+    width: 254px;
+    height: 60px;
+    margin-top: 0;
+    margin-left: 3px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  input.boldborder {
+    border: 1px solid #252c40;
+    margin-right: 3px;
+  }
+
+  input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 18px;
+    padding-left: 20px;
   }
 
   form textarea {
-    height: 119px;
+    width: 542px;
+    height: 140px;
+    border: 1px solid #e0e0e0;
+    margin-left: 3px;
+    margin-top: -20px;
+    padding-top: 18px;
+    padding-left: 20px;
+  }
+
+  div .phoneremove {
+    display: block;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   #lastpage .collaborationbox {
@@ -300,6 +361,15 @@
     height: 70px;
     margin-top: 40px;
     align-self: center;
+  }
+
+  /* ==================================== */
+  #lastpage footer {
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
 
   footer #union2 {
@@ -319,13 +389,5 @@
     margin: 0;
     justify-content: space-between;
     gap: 15px;
-  }
-
-  #lastpage footer {
-    height: 123px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
   }
 }

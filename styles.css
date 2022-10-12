@@ -331,6 +331,8 @@ div.box {
   letter-spacing: -0.0525em;
 }
 
+/* <!-------- Last page Section--------> */
+
 #lastpage {
   width: 100%;
   margin-top: 50px;
@@ -352,8 +354,12 @@ div.box {
 }
 
 #lastpage .paragraph {
-  height: 63px;
+  margin-top: 20px;
   margin-bottom: 32px;
+}
+
+.phoneremove {
+  display: none;
 }
 
 .tooltip .tooltiptext {
@@ -372,6 +378,11 @@ div.box {
   visibility: visible;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 #inputfeilds {
   display: grid;
   grid-template-rows: 52px 52px 112px;
@@ -380,7 +391,7 @@ div.box {
   background: #f9f9fa;
 }
 
-form div {
+#inputfeilds div {
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   box-sizing: border-box;
@@ -420,8 +431,12 @@ input::placeholder {
 form textarea {
   resize: none;
   border: hidden;
-  margin-top: 15px;
+  margin-top: 0;
   margin-left: 16px;
+}
+
+div .phoneremove {
+  display: none;
 }
 
 ::placeholder {
@@ -433,10 +448,7 @@ form textarea {
   color: #7d7c84;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
+/* ==================================== */
 
 #lastpage footer {
   height: 150px;
