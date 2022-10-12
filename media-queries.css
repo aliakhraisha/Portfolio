@@ -49,7 +49,8 @@
     margin: 192px auto 190px 160px;
   }
 
-  h1 {
+  h1,
+  h2 {
     font-size: 110px;
   }
 
@@ -88,7 +89,7 @@
   .project4 { grid-area: project4; }
   .project5 { grid-area: project5; }
 
-  #works h1 {
+  #works h2 {
     transform: rotate(-90deg);
     font-weight: 400px;
     font-size: 110px;
