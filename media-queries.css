@@ -30,6 +30,7 @@
 
   .underlined {
     text-decoration: underline;
+    text-underline-offset:5px;
   }
 
   #firstpage {
@@ -274,7 +275,6 @@
   }
 
   #lastpage header {
-    /* width: 37.6%; */
     width: 548px;
     margin-top: 168px;
   }

@@ -52,12 +52,12 @@ body {
   background-image: url("images/image_geometry_2.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100% auto;
+  background-size: contain;
 }
 
 #firstpage > header {
   width: 90%;
-  margin-bottom: 220px;
+  margin-bottom: 240px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
