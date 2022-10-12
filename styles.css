@@ -12,6 +12,15 @@ li {
   padding: 0;
   margin: 0;
 }
+/* <!-------- hide-display --------> */
+
+.hideondesktop {
+  display: block;
+}
+
+.hideonphone {
+  display: none;
+}
 
 /* <!-------- Body --------> */
 
@@ -27,9 +36,6 @@ body {
 }
 
 /* <!-------- First Page --------> */
-#navbar {
-  display: none;
-}
 
 #navshort {
   height: 74px;
@@ -146,7 +152,7 @@ form .collaborationbox {
   margin-left: 16px;
 }
 
-[class^="project"] {
+[id^="project"] {
   width: 100%;
   display: grid;
   gap: 0;
@@ -156,9 +162,11 @@ form .collaborationbox {
 
 .projectimage {
   width: 100%;
+  height: fit-content;
 }
 
 .projectdetails {
+  height: fit-content;
   display: flex;
   flex-direction: column;
   background-color: #1a2236;
@@ -199,7 +207,8 @@ form .collaborationbox {
 }
 
 .projectlink {
-  width: auto;
+  width:178px;
+  height: 44px;
   margin: 20px auto 20px 20px;
   padding: 10px 12px 10px 10px;
   display: flex;
@@ -217,10 +226,6 @@ form .collaborationbox {
 
 .union1 {
   margin-left: 12px;
-}
-
-.project5desktop {
-  display: none;
 }
 
 /* <!-------- About My Self Section--------> */

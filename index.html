@@ -13,10 +13,10 @@
 
 <!-------- First Page -------->
 <section id="firstpage" class="header">
-  <nav id="navshort">
+  <nav id="navshort" class="hideondesktop">
       <img  class="alignright" src="images/ic_menu.svg" alt="Hamburger Menu Icon">
   </nav>
-  <nav id='navbar'>
+  <nav id='navbar' class="hideonphone">
     <a href='#firstpage' class="navContent"><span class="underlined">Hell</span>o</a>
     <a href='#works' class="navContent">Portfolio</a>
     <a href='#aboutmyself' class="navContent">About</a>
@@ -32,6 +32,7 @@
 <!-------- Works Section-------->
 <section id="works">
   <h2 class="workheader">Projects</h2>
+<!-- ---------------------- -->
   <section id="project1" class="project1">  
     <img class="projectimage" src="images/Rectangle 21.1.svg" alt="first project image">
     <div class="projectdetails">
@@ -42,11 +43,11 @@
           <li><a>JavaScript</a></li>
       </ul>
       <div class="projectlink"><a>See this project </a>
-      <img class="union1" src="images/Union1.svg" alt="project1 details arrow">
-      <img class="union" src="images/Union.svg" alt="project1 details arrow"></div>
+        <img class="union1 hideondesktop" src="images/Union1.svg" alt="project5 details arrow-white">
+        <img class="union hideonphone" src="images/Union.svg" alt="project5 details arrow-dark"></div>
     </div> 
   </section>
-
+<!-- ---------------------- -->
   <section id="project2" class="project2">  
     <img class="projectimage" src="images/Rectangle 21.2.svg" alt="second project image">
     <div class="projectdetails" id="desktopremove">
@@ -60,7 +61,7 @@
       <img class="union1" src="images/Union1.svg" alt="project2 details arrow"></div>
     </div>
   </section>
-
+<!-- ---------------------- -->
   <section id="project3" class="project3"> 
     <img class="projectimage" src="images/Rectangle 21.3.svg" alt="third project image">
     <div class="projectdetails"  id="desktopremove">
@@ -74,7 +75,7 @@
       <img class="union1" src="images/Union1.svg" alt="project3 details arrow"></div>
     </div>
   </section>
-
+<!-- ---------------------- -->
   <section id="project4" class="project4">  
     <img class="projectimage" src="images/Rectangle 21.4.svg" alt="fourth project image">
     <div class="projectdetails"  id="desktopremove">
@@ -88,28 +89,28 @@
       <img class="union1" src="images/Union1.svg" alt="project4 details arrow"></div>
     </div>
   </section>
-
+<!-- ---------------------- -->
   <section id="project5" class="project5"> 
     <img class="projectimage" src="images/Rectangle 21.5.svg" alt="fifth project image">
     <div class="projectdetails">
       <div class="projectname">
-        <hx class="project5phone">Project name goes here</hx>
-        <p class="project5desktop">Project name goes...</p>
+        <hx class="hideondesktop">Project name goes here</hx>
+        <p class="hideonphone">Project name goes...</p>
       </div>
       <ul>
           <li><a>HTML/CSS</a></li>
           <li><a>Ruby on Rails</a></li>
-          <li><a>JavaScript</a></li>
+          <li class="hideondesktop"><a>JavaScript</a></li>
+          <li class="hideonphone"><a>+1</a></li>
       </ul>
       <div class="projectlink"><a>See this project</a>
-      <img class="union1" src="images/Union1.svg" alt="project5 details arrow">
-      <img class="union" src="images/Union.svg" alt="project1 details arrow"></div> 
+      <img class="union1 hideondesktop" src="images/Union1.svg" alt="project5 details arrow-white">
+      <img class="union hideonphone" src="images/Union.svg" alt="project5 details arrow-dark"></div> 
     </div>
     </div>
   </section>
-
+<!-- ---------------------- -->
   <section id="project6"  class="project6 desktopremove"> 
-
     <img class="projectimage" src="images/Rectangle 21.6.svg" alt="sixth project image">
     <div class="projectdetails ">
       <div class="projectname"><hx>Project name goes here</hx></div>
@@ -168,8 +169,8 @@
  <header> 
    <h2>Get started</h2>
    <div class="paragraph tooltip">
-    <p class="desktopremove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-    <p class="phoneremove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <p class="hideondesktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    <p class="hideonphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
    <span class="tooltiptext">please follow the instruction</span>
   </div>
    <form action="https://formspree.io/f/mzbwgklj" method="POST">
@@ -184,7 +185,7 @@
       <input required id="emailinput" class="boldborder" name="email" type="email"/>
     </div>
     <div>
-      <label class="label phoneremove"  for="textarea">Message</label><br/>
+      <label class="label hideonphone"  for="textarea">Message</label><br/>
       <textarea required name="message"  id="textarea" placeholder="Enter your message here..." rows="5" cols="30" maxlength="500"></textarea>
     </div>
   </section>
@@ -192,10 +193,11 @@
     <input class="collaborationbox" type="submit" value="Start collaboration">
    </form>
  </header>
+ <!-- ---------------------- -->
 <footer>
   <div id="resumdownloadlink"><a>Get my Resume</a>
-    <img id="union2" src="images/Union2.svg" alt="cv download image-turquoise-mobile">
-    <img id="ic-link_teal" src="images/ic-link_teal.svg" alt="cv download image-turquoise-desktop"></div>
+    <img id="union2" class="hideondesktop" src="images/Union2.svg" alt="cv download image-turquoise-mobile">
+    <img id="ic-link_teal" class="hideonphone" src="images/ic-link_teal.svg" alt="cv download image-turquoise-desktop"></div>
   <div id="socialmedia">
     <a><img src="images/ic_stackoverflow.svg" alt="stackflow"></a>
     <a></a><img src="images/ic_github.svg" alt="github"></a>
