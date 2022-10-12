@@ -15,10 +15,6 @@ li {
 
 /* <!-------- hide-display --------> */
 
-.hideondesktop {
-  display: block;
-}
-
 .hideonphone {
   display: none;
 }
