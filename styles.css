@@ -388,7 +388,6 @@ form {
   grid-template-rows: 52px 52px 112px;
   grid-template-columns: 100%;
   gap: 8px;
-  background: #f9f9fa;
 }
 
 #inputfeilds div {
@@ -411,12 +410,14 @@ form {
   color: #7d7c84;
 }
 
-form input {
-  width: auto;
-  height: 21px;
+input {
+  width: 90%;
+  height: 24px;
   margin-top: 4px;
   margin-left: 16px;
   border: hidden;
+  outline-color: #1a2236;
+  outline-width: thin;
 }
 
 input::placeholder {
@@ -429,10 +430,13 @@ input::placeholder {
 }
 
 form textarea {
+  width: 90%;
   resize: none;
   border: hidden;
   margin-top: 0;
   margin-left: 16px;
+  outline-color: #1a2236;
+  outline-width: thin;
 }
 
 div .phoneremove {
