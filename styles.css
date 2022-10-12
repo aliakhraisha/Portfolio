@@ -64,7 +64,8 @@ body {
   align-self: center;
 }
 
-h1, h2{
+h1,
+h2 {
   align-self: left;
   font-family: 'Playfair Display', serif;
   font-style: normal;
