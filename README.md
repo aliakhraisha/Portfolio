@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# prtfolio
+# Alia khraisha portfolio
 
 > Set up my prtfolio.
 
