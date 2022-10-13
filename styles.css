@@ -409,15 +409,7 @@ input {
   border: hidden;
   outline-color: #1a2236;
   outline-width: thin;
-}
-
-input::placeholder {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  color: #1a2236;
+  padding-left: 16px;
 }
 
 form textarea {
