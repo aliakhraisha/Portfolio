@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# prtfolio
 
-> Set up a "prtfolio" project.
+> Set up my prtfolio.
 
 
 ## Built With
@@ -14,7 +14,7 @@
 
 - https://aliakhraisha.github.io/Portfolio/
 
-### Setup
+## Setup
 
 - To clone this Repo run the this command on your terminal:
 git clone git@github.com:aliakhraisha/Portfolio.git
