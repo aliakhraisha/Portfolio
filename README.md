@@ -16,7 +16,7 @@
 
 ### Setup
 
-- Clone this Repo: 'git clone git@github.com:aliakhraisha/Portfolio.git'
+* Clone the repo: `git clone git@github.com:aliakhraisha/Portfolio.git`
 
 ## Authors
 
