@@ -16,8 +16,7 @@
 
 ## Setup
 
-- To clone this Repo run the this command on your terminal:
-git clone git@github.com:aliakhraisha/Portfolio.git
+* Clone the repo: `git clone git@github.com:aliakhraisha/Portfolio.git`
 
 ## Authors
 
