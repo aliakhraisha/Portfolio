@@ -51,7 +51,7 @@
 
   #firstpage header {
     width: 33%;
-    height: 50%;
+    height: fit-content;
     margin: 192px auto 190px 160px;
   }
 
@@ -66,6 +66,7 @@
 
   .collaborationbox {
     width: 50%;
+    min-width: fit-content;
     align-self: left;
     height: 70px;
   }
